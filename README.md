@@ -1,17 +1,18 @@
 # MMTGAN-project:Multimodal NMR image synthesis system(one-to-many)
 
- MMTGAN.exe已经封装好的程序
+ MMTGAN.exe：已经封装好的程序
 
 # 文件夹说明
-checkpoint文件夹存放的是模型训练权重文件
+checkpoint文件夹：存放的是模型训练权重文件
 
-dataset文件夹存放了nii.gz/dicom格式的数据文件，用于输入
+dataset文件夹：存放了nii.gz/dicom格式的数据文件，用于输入
 
-ui文件夹存放exe的图标文件和QT设计的UI界面文件
+ui文件夹：存放exe的图标文件和QT设计的UI界面文件
 
 # 其他文件
-MMTGAN.py用于于QT结合来定义功能
-
+MMTGAN.py：用于于QT结合来定义功能
+data_crop.py：数据预处理
+pred.py：预测代码
 
 # exe文件的封装命令：
 ```python
