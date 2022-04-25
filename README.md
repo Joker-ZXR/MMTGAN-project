@@ -16,6 +16,7 @@ MMTGAN.py用于于QT结合来定义功能
 
 
 # exe文件的封装命令：
+```python
 pyinstaller 
 -F MMTGAN.py 
 --noconsole 
@@ -27,7 +28,7 @@ pyinstaller
 --workpath "..\build"  
 --distpath "..\dist"  
 –-specpath "..\pkg_exe"
-
+```
 
 # 防止报错：在spec文件后面加上：
 ```python
