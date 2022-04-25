@@ -1,8 +1,6 @@
-# MMTGAN-project
+# MMTGAN-project:Multimodal NMR image synthesis system(one-to-many)
 
-# Multimodal NMR image synthesis system(one-to-many)
-
-# MMTGAN.exe已经封装好的程序
+ MMTGAN.exe已经封装好的程序
 
 # 文件夹说明
 checkpoint文件夹存放的是模型训练权重文件
