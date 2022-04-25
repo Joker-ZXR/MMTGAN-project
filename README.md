@@ -29,9 +29,8 @@ pyinstaller -F MMTGAN.py
 
 
 # 防止报错：在spec文件后面加上：
-'''
+
 for d in a.datas:
     if '_C.cp38-win_amd64.pyd' in d[0]:
         a.datas.remove(d)
         break
-'''
